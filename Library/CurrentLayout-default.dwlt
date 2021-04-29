@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 56
+  controlID: 98
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 57
+  controlID: 103
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 58
+  controlID: 104
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -447,10 +447,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: a2eeffffa4eeffff9cf6ffff62fbffff
+      scrollPos: {x: 0, y: 183}
+      m_SelectedIDs: f4410000
+      m_LastClickedID: 16884
+      m_ExpandedIDs: 62fbffffce410000d2410000f4410000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.5279404, y: 2.2839599, z: -2.488082}
+    m_Target: {x: 1.6260992, y: -0.7050544, z: 3.354771}
     speed: 2
-    m_Value: {x: 1.5279404, y: 2.2839599, z: -2.488082}
+    m_Value: {x: 1.6260992, y: -0.7050544, z: 3.354771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,13 +558,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04262057, y: 0.1682243, z: -0.0076551223, w: -0.9849525}
+    m_Target: {x: -0.33517474, y: 0.017954845, z: -0.0067516672, w: -0.9421248}
     speed: 2
-    m_Value: {x: -0.04409118, y: 0.1681869, z: -0.007906391, w: -0.98473686}
+    m_Value: {x: -0.33511248, y: 0.01936502, z: -0.0072533013, w: -0.9419512}
   m_Size:
-    m_Target: 0.7518746
+    m_Target: 1.6518745
     speed: 2
-    m_Value: 1.0518746
+    m_Value: 1.3518746
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -628,20 +628,20 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/PhysicsMaterials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/PhysicsMaterials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\VR\Teleporation\IntroToOculus-master\ZenGarden
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 225}
-    m_SelectedIDs: 703f0000
-    m_LastClickedID: 16240
-    m_ExpandedIDs: 00000000003f0000023f0000043f0000063f0000083f00000a3f00000c3f00000e3f000000ca9a3b
+    scrollPos: {x: 0, y: 61}
+    m_SelectedIDs: 2a450000
+    m_LastClickedID: 17706
+    m_ExpandedIDs: 000000006e3a0000703a0000723a0000743a0000763a0000783a00007a3a00007c3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -669,7 +669,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000003f0000023f0000043f0000063f0000083f00000a3f00000c3f00000e3f0000
+    m_ExpandedIDs: 000000006e3a0000703a0000723a0000743a0000763a0000783a00007a3a00007c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
