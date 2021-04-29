@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 8b7dd0809c7c6498789fa32a61eaa6cb, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.31977537, g: 0.2581902, b: 0.36821944, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5484,6 +5484,7 @@ GameObject:
   - component: {fileID: 1501746199}
   - component: {fileID: 1501746201}
   - component: {fileID: 1501746202}
+  - component: {fileID: 1501746203}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -5554,6 +5555,21 @@ MonoBehaviour:
   velocity: 2
   rotationSpeed: 100
   trackedTransform: {fileID: 963194228}
+--- !u!114 &1501746203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501746198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db9cb0ffbf3e9d64583641752ba56b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sunriseSkybox: {fileID: 2100000, guid: 8b7dd0809c7c6498789fa32a61eaa6cb, type: 2}
+  midDaySkybox: {fileID: 2100000, guid: 2d796ced94d61438fbab81b194038162, type: 2}
+  sunsetSkybox: {fileID: 2100000, guid: b4f152e0498484391a9f0d5a1facf03b, type: 2}
 --- !u!1 &1516818202
 GameObject:
   m_ObjectHideFlags: 0
@@ -7686,9 +7702,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 2123590965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b2c6f737481c854ca2064cbafec079f, type: 3}
+  m_Script: {fileID: 11500000, guid: cdfb26b63e90cf948bf489c0ffcb5b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ButtonDownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  ButtonUpEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &2123590967
 Transform:
   m_ObjectHideFlags: 0

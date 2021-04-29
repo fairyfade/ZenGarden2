@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A19F3ADA-5F4A-6C47-6AAD-1AEDBE8AD7ED}</ProjectGuid>
+    <ProjectGuid>{DB630BFF-A530-D62A-E4C8-188CEA44814D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,6 +67,7 @@
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\Scripts\BalloonController.cs" />
     <Compile Include="Assets\Scripts\ButtonInputController.cs" />
+    <Compile Include="Assets\Scripts\ChangeSky.cs" />
     <Compile Include="Assets\Scripts\GlideLocomotion.cs" />
     <Compile Include="Assets\Scripts\KeepUpright.cs" />
     <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
@@ -594,82 +595,82 @@
       <HintPath>D:/Unity/2019.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.ARSubsystems.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.InteractionSubsystems">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.InteractionSubsystems.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMixedReality.Editor">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.WindowsMixedReality">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/Unity.XR.WindowsMixedReality.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/VR/Teleporation/IntroToOculus-master/Teleporation/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/VR/Teleporation/IntroToOculus-master/ZenGarden/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
