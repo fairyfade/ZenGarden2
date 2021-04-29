@@ -67,6 +67,7 @@
     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
     <Compile Include="Assets\Scripts\BalloonController.cs" />
     <Compile Include="Assets\Scripts\ButtonInputController.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\ChangeSky.cs" />
     <Compile Include="Assets\Scripts\GlideLocomotion.cs" />
     <Compile Include="Assets\Scripts\KeepUpright.cs" />
